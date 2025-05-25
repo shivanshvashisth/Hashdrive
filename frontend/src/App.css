@@ -1,0 +1,100 @@
+body {
+  background: #f4f6fa;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(60, 72, 88, 0.08);
+  padding: 32px 40px;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #22223b;
+}
+
+.wallet-status {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #4a4e69;
+}
+
+.upload-area {
+  border: 2px dashed #9a8c98;
+  border-radius: 10px;
+  background: #f8f7fa;
+  padding: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+  transition: border-color 0.2s;
+}
+
+.upload-area.dragover {
+  border-color: #4a4e69;
+  background: #e9ecef;
+}
+
+.upload-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 26px;
+  background: #4a4e69;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.upload-btn:hover {
+  background: #22223b;
+}
+
+.file-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+.file-table th,
+.file-table td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.file-table th {
+  background: #f8f7fa;
+  font-weight: 600;
+  color: #22223b;
+}
+
+.download-btn {
+  padding: 6px 18px;
+  background: #9a8c98;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.download-btn:hover {
+  background: #4a4e69;
+}
+
+.status-message {
+  margin-top: 14px;
+  font-size: 1rem;
+  color: #b5179e;
+  min-height: 24px;
+}

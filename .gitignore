@@ -1,0 +1,22 @@
+# Ignore Python cache and venvs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Ignore environment variables
+.env
+backend/.env
+
+# NodeJS
+node_modules/
+build/
+dist/
+
+# OS + editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
